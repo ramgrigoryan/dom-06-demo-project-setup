@@ -9,6 +9,16 @@
     <script src="assets/scripts/app.js" defer></script>
   </head>
   <body>
+    <header>
+      <h1>Favorite Movies</h1>
+      <button>ADD MOVIE</button>
+    </header>
+    <main>
+      <section id="entry-text" class="card">
+        <p>Your personal movie database!</p>
+      </section>
+      <ul id="movie-list"></ul>
+    </main>
     <div id="backdrop"></div>
     <div class="modal" id="add-modal">
       <div class="modal__content">
@@ -42,17 +52,5 @@
         <button class="btn btn--danger">Yes</button>
       </div>
     </div>
-
-    <header>
-      <h1>Favorite Movies</h1>
-      <button>ADD MOVIE</button>
-    </header>
-
-    <main>
-      <section id="entry-text" class="card">
-        <p>Your personal movie database!</p>
-      </section>
-      <ul id="movie-list"></ul>
-    </main>
   </body>
 </html>
